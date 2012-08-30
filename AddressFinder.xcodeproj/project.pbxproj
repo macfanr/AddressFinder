@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B0994BD15EEFF2C00D19CFA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0994BC15EEFF2C00D19CFA /* Cocoa.framework */; };
+		6B0994C715EEFF2C00D19CFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B0994C515EEFF2C00D19CFA /* InfoPlist.strings */; };
+		6B0994C915EEFF2C00D19CFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0994C815EEFF2C00D19CFA /* main.m */; };
+		6B0994CD15EEFF2C00D19CFA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6B0994CB15EEFF2C00D19CFA /* Credits.rtf */; };
+		6B0994D015EEFF2C00D19CFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0994CF15EEFF2C00D19CFA /* AppDelegate.m */; };
+		6B0994D315EEFF2C00D19CFA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0994D115EEFF2C00D19CFA /* MainMenu.xib */; };
+		6B5EE5B815EF0150005A9AE2 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EE5A115EF0150005A9AE2 /* CDataScanner.m */; };
+		6B5EE5B915EF0150005A9AE2 /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EE5A415EF0150005A9AE2 /* CFilteringJSONSerializer.m */; };
+		6B5EE5BA15EF0150005A9AE2 /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EE5A615EF0150005A9AE2 /* CJSONDeserializer_BlocksExtensions.m */; };
+		6B5EE5BB15EF0150005A9AE2 /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EE5A815EF0150005A9AE2 /* CJSONSerialization.m */; };
+		6B5EE5BC15EF0150005A9AE2 /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EE5AA15EF0150005A9AE2 /* CJSONSerializedData.m */; };
+		6B5EE5BD15EF0150005A9AE2 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EE5AD15EF0150005A9AE2 /* CDataScanner_Extensions.m */; };
+		6B5EE5BE15EF0150005A9AE2 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EE5AF15EF0150005A9AE2 /* NSDictionary_JSONExtensions.m */; };
+		6B5EE5BF15EF0150005A9AE2 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EE5B215EF0150005A9AE2 /* CJSONDeserializer.m */; };
+		6B5EE5C015EF0150005A9AE2 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EE5B415EF0150005A9AE2 /* CJSONScanner.m */; };
+		6B5EE5C115EF0150005A9AE2 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EE5B615EF0150005A9AE2 /* CJSONSerializer.m */; };
+		6B5EE5C515EF0170005A9AE2 /* DNAddressFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EE5C415EF0170005A9AE2 /* DNAddressFinder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B0994B815EEFF2C00D19CFA /* AddressFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0994BC15EEFF2C00D19CFA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6B0994BF15EEFF2C00D19CFA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6B0994C015EEFF2C00D19CFA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6B0994C115EEFF2C00D19CFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B0994C415EEFF2C00D19CFA /* AddressFinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddressFinder-Info.plist"; sourceTree = "<group>"; };
+		6B0994C615EEFF2C00D19CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B0994C815EEFF2C00D19CFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B0994CA15EEFF2C00D19CFA /* AddressFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AddressFinder-Prefix.pch"; sourceTree = "<group>"; };
+		6B0994CC15EEFF2C00D19CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6B0994CE15EEFF2C00D19CFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B0994CF15EEFF2C00D19CFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B0994D215EEFF2C00D19CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6B5EE5A015EF0150005A9AE2 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		6B5EE5A115EF0150005A9AE2 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		6B5EE5A315EF0150005A9AE2 /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
+		6B5EE5A415EF0150005A9AE2 /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringJSONSerializer.m; sourceTree = "<group>"; };
+		6B5EE5A515EF0150005A9AE2 /* CJSONDeserializer_BlocksExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer_BlocksExtensions.h; sourceTree = "<group>"; };
+		6B5EE5A615EF0150005A9AE2 /* CJSONDeserializer_BlocksExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer_BlocksExtensions.m; sourceTree = "<group>"; };
+		6B5EE5A715EF0150005A9AE2 /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerialization.h; sourceTree = "<group>"; };
+		6B5EE5A815EF0150005A9AE2 /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerialization.m; sourceTree = "<group>"; };
+		6B5EE5A915EF0150005A9AE2 /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializedData.h; sourceTree = "<group>"; };
+		6B5EE5AA15EF0150005A9AE2 /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializedData.m; sourceTree = "<group>"; };
+		6B5EE5AC15EF0150005A9AE2 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		6B5EE5AD15EF0150005A9AE2 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		6B5EE5AE15EF0150005A9AE2 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		6B5EE5AF15EF0150005A9AE2 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		6B5EE5B115EF0150005A9AE2 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		6B5EE5B215EF0150005A9AE2 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		6B5EE5B315EF0150005A9AE2 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		6B5EE5B415EF0150005A9AE2 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		6B5EE5B515EF0150005A9AE2 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		6B5EE5B615EF0150005A9AE2 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		6B5EE5B715EF0150005A9AE2 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		6B5EE5C315EF0170005A9AE2 /* DNAddressFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAddressFinder.h; sourceTree = "<group>"; };
+		6B5EE5C415EF0170005A9AE2 /* DNAddressFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAddressFinder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B0994B515EEFF2C00D19CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0994BD15EEFF2C00D19CFA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B0994AD15EEFF2C00D19CFA = {
+			isa = PBXGroup;
+			children = (
+				6B0994C215EEFF2C00D19CFA /* AddressFinder */,
+				6B0994BB15EEFF2C00D19CFA /* Frameworks */,
+				6B0994B915EEFF2C00D19CFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B0994B915EEFF2C00D19CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B0994B815EEFF2C00D19CFA /* AddressFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B0994BB15EEFF2C00D19CFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B0994BC15EEFF2C00D19CFA /* Cocoa.framework */,
+				6B0994BE15EEFF2C00D19CFA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B0994BE15EEFF2C00D19CFA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B0994BF15EEFF2C00D19CFA /* AppKit.framework */,
+				6B0994C015EEFF2C00D19CFA /* CoreData.framework */,
+				6B0994C115EEFF2C00D19CFA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6B0994C215EEFF2C00D19CFA /* AddressFinder */ = {
+			isa = PBXGroup;
+			children = (
+				6B0994CE15EEFF2C00D19CFA /* AppDelegate.h */,
+				6B0994CF15EEFF2C00D19CFA /* AppDelegate.m */,
+				6B5EE5C315EF0170005A9AE2 /* DNAddressFinder.h */,
+				6B5EE5C415EF0170005A9AE2 /* DNAddressFinder.m */,
+				6B5EE59F15EF0150005A9AE2 /* JSON */,
+				6B0994D115EEFF2C00D19CFA /* MainMenu.xib */,
+				6B0994C315EEFF2C00D19CFA /* Supporting Files */,
+			);
+			path = AddressFinder;
+			sourceTree = "<group>";
+		};
+		6B0994C315EEFF2C00D19CFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B0994C415EEFF2C00D19CFA /* AddressFinder-Info.plist */,
+				6B0994C515EEFF2C00D19CFA /* InfoPlist.strings */,
+				6B0994C815EEFF2C00D19CFA /* main.m */,
+				6B0994CA15EEFF2C00D19CFA /* AddressFinder-Prefix.pch */,
+				6B0994CB15EEFF2C00D19CFA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B5EE59F15EF0150005A9AE2 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6B5EE5A015EF0150005A9AE2 /* CDataScanner.h */,
+				6B5EE5A115EF0150005A9AE2 /* CDataScanner.m */,
+				6B5EE5A215EF0150005A9AE2 /* Experimental */,
+				6B5EE5AB15EF0150005A9AE2 /* Extensions */,
+				6B5EE5B015EF0150005A9AE2 /* JSON */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		6B5EE5A215EF0150005A9AE2 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				6B5EE5A315EF0150005A9AE2 /* CFilteringJSONSerializer.h */,
+				6B5EE5A415EF0150005A9AE2 /* CFilteringJSONSerializer.m */,
+				6B5EE5A515EF0150005A9AE2 /* CJSONDeserializer_BlocksExtensions.h */,
+				6B5EE5A615EF0150005A9AE2 /* CJSONDeserializer_BlocksExtensions.m */,
+				6B5EE5A715EF0150005A9AE2 /* CJSONSerialization.h */,
+				6B5EE5A815EF0150005A9AE2 /* CJSONSerialization.m */,
+				6B5EE5A915EF0150005A9AE2 /* CJSONSerializedData.h */,
+				6B5EE5AA15EF0150005A9AE2 /* CJSONSerializedData.m */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		6B5EE5AB15EF0150005A9AE2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B5EE5AC15EF0150005A9AE2 /* CDataScanner_Extensions.h */,
+				6B5EE5AD15EF0150005A9AE2 /* CDataScanner_Extensions.m */,
+				6B5EE5AE15EF0150005A9AE2 /* NSDictionary_JSONExtensions.h */,
+				6B5EE5AF15EF0150005A9AE2 /* NSDictionary_JSONExtensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6B5EE5B015EF0150005A9AE2 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6B5EE5B115EF0150005A9AE2 /* CJSONDeserializer.h */,
+				6B5EE5B215EF0150005A9AE2 /* CJSONDeserializer.m */,
+				6B5EE5B315EF0150005A9AE2 /* CJSONScanner.h */,
+				6B5EE5B415EF0150005A9AE2 /* CJSONScanner.m */,
+				6B5EE5B515EF0150005A9AE2 /* CJSONSerializer.h */,
+				6B5EE5B615EF0150005A9AE2 /* CJSONSerializer.m */,
+				6B5EE5B715EF0150005A9AE2 /* JSONRepresentation.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B0994B715EEFF2C00D19CFA /* AddressFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0994D615EEFF2C00D19CFA /* Build configuration list for PBXNativeTarget "AddressFinder" */;
+			buildPhases = (
+				6B0994B415EEFF2C00D19CFA /* Sources */,
+				6B0994B515EEFF2C00D19CFA /* Frameworks */,
+				6B0994B615EEFF2C00D19CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressFinder;
+			productName = AddressFinder;
+			productReference = 6B0994B815EEFF2C00D19CFA /* AddressFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B0994AF15EEFF2C00D19CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Xu Jun";
+			};
+			buildConfigurationList = 6B0994B215EEFF2C00D19CFA /* Build configuration list for PBXProject "AddressFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B0994AD15EEFF2C00D19CFA;
+			productRefGroup = 6B0994B915EEFF2C00D19CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B0994B715EEFF2C00D19CFA /* AddressFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B0994B615EEFF2C00D19CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0994C715EEFF2C00D19CFA /* InfoPlist.strings in Resources */,
+				6B0994CD15EEFF2C00D19CFA /* Credits.rtf in Resources */,
+				6B0994D315EEFF2C00D19CFA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B0994B415EEFF2C00D19CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0994C915EEFF2C00D19CFA /* main.m in Sources */,
+				6B0994D015EEFF2C00D19CFA /* AppDelegate.m in Sources */,
+				6B5EE5B815EF0150005A9AE2 /* CDataScanner.m in Sources */,
+				6B5EE5B915EF0150005A9AE2 /* CFilteringJSONSerializer.m in Sources */,
+				6B5EE5BA15EF0150005A9AE2 /* CJSONDeserializer_BlocksExtensions.m in Sources */,
+				6B5EE5BB15EF0150005A9AE2 /* CJSONSerialization.m in Sources */,
+				6B5EE5BC15EF0150005A9AE2 /* CJSONSerializedData.m in Sources */,
+				6B5EE5BD15EF0150005A9AE2 /* CDataScanner_Extensions.m in Sources */,
+				6B5EE5BE15EF0150005A9AE2 /* NSDictionary_JSONExtensions.m in Sources */,
+				6B5EE5BF15EF0150005A9AE2 /* CJSONDeserializer.m in Sources */,
+				6B5EE5C015EF0150005A9AE2 /* CJSONScanner.m in Sources */,
+				6B5EE5C115EF0150005A9AE2 /* CJSONSerializer.m in Sources */,
+				6B5EE5C515EF0170005A9AE2 /* DNAddressFinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B0994C515EEFF2C00D19CFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B0994C615EEFF2C00D19CFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B0994CB15EEFF2C00D19CFA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B0994CC15EEFF2C00D19CFA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6B0994D115EEFF2C00D19CFA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B0994D215EEFF2C00D19CFA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B0994D415EEFF2C00D19CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B0994D515EEFF2C00D19CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B0994D715EEFF2C00D19CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressFinder/AddressFinder-Prefix.pch";
+				INFOPLIST_FILE = "AddressFinder/AddressFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B0994D815EEFF2C00D19CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressFinder/AddressFinder-Prefix.pch";
+				INFOPLIST_FILE = "AddressFinder/AddressFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B0994B215EEFF2C00D19CFA /* Build configuration list for PBXProject "AddressFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0994D415EEFF2C00D19CFA /* Debug */,
+				6B0994D515EEFF2C00D19CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B0994D615EEFF2C00D19CFA /* Build configuration list for PBXNativeTarget "AddressFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0994D715EEFF2C00D19CFA /* Debug */,
+				6B0994D815EEFF2C00D19CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B0994AF15EEFF2C00D19CFA /* Project object */;
+}
