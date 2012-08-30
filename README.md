@@ -1,4 +1,4 @@
 AddressFinder
 =============
 
-a simple demo how to find latitude longitude from the address
+a simple demo illustrates how to find the address from latitude and longitude by google map API
